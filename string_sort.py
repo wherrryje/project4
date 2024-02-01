@@ -1,7 +1,7 @@
 def string_sort(list):
     """
     sorts through a list by comparing two values at consecutive indexes and swaps if the lesser index is greater
-    in value than the higher index.
+    in value than the higher index. Returns the same strings in list but just in alpha sorted order.
     """
     for index in range(1, len(list)):
         value = list[index]
